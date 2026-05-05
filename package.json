@@ -1,0 +1,32 @@
+{
+  "name": "glasscraft",
+  "displayName": "GlassCraft",
+  "description": "Glassmorphism, neumorphism, and 3D CSS generator",
+  "version": "0.0.1",
+  "author": "Komail Abbas",
+  "publisher": "SyedKomailAbbas",
+  "icon": "icon.png",
+  
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:glasscraft.open"
+  ],
+       "repository": {
+    "type": "git",
+    "url": "https://github.com/Komail003/Glass-Craft.git"
+  },
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "glasscraft.open",
+        "title": "Open GlassCraft"
+      }
+    ]
+  }
+}
